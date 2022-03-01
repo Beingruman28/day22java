@@ -24,15 +24,15 @@ public class JdbcTest {
 		//String query9 = "insert into student values(7,'bhumrah',80)";
 		//String query10 = "insert into student values(8,'shami',80)";
 		//String query11 = "create TABLE studentnew AS select * from student";
-		String query12 = "truncate studentnew";
-		
+		//String query12 = "truncate studentnew";
+		String query13 = "truncate student";
 		//st.executeUpdate(query);//steps 7
 		/*st.executeUpdate(query6);//steps 7
 		st.executeUpdate(query7);//steps 7
 		st.executeUpdate(query8);//steps 7
 		st.executeUpdate(query9);//steps 7
-		st.executeUpdate(query10);//steps 7
-		*/st.executeUpdate(query12);//steps 7
+		st.executeUpdate(query10);//steps 7*/
+		st.executeUpdate(query13);//steps 7
 		//System.out.println("Student Table created successfully");
 		//st.executeUpdate(query1);
 		System.out.println("Row inserted successfully");
